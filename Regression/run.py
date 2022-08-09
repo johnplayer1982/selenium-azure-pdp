@@ -9,8 +9,10 @@ if environment == "production":
     baseUrl = "https://www.moneyhelper.org.uk"
 elif environment == "staging":
     baseUrl = "https://test.moneyhelper.org.uk"
+elif environment == "test":
+    baseUrl = "http://maps-test.uksouth.cloudapp.azure.com"
 else:
-    raise AssertionError('Please set the "environment" variable to either "staging" or "production"')
+    raise AssertionError('Please set the "environment" variable to either "test", "staging" or "production"')
 
 api_session = requests.Session()
 api_session.auth = (username, authkey)
