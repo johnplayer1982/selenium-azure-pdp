@@ -5,8 +5,7 @@ import example
 
 # baseUrl = "https://www.moneyhelper.org.uk"
 # baseUrl = "https://test.moneyhelper.org.uk"
-baseUrl = "https://moneyhelper-tools.netlify.app"
-# baseUrl = "https://deploy-preview-49--moneyhelper-tools.netlify.app"
+baseUrl = "http://maps-test.uksouth.cloudapp.azure.com"
 
 if platform.system() == "Darwin":
     # browser = "Safari"
